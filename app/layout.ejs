@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header fixed top-0 left-0 right-0 z-20 bg-primary after:content-[''] after:w-full after:h-[2px] after:left-0 after:bottom-0 after:absolute">
+    <div class="container flex items-center justify-between py-6">
+      <h1>
+        <a href="./index.html" class="bg-[url('../images/logo.svg')] bg-no-repeat bg-contain bg-center h-[24px] indent-[101%] whitespace-nowrap overflow-hidden md:h-[42px]">Coding Home</a>
+      </h1>
+      <button type="button" class="md:hidden">
+        <span class="material-icons text-secondary">
+          menu
+        </span>
+      </button>
+      <ul class="hidden md:flex">
+        <li><a href="#" class="px-12 text-lg">首頁</a></li>
+        <li><a href="#" class="px-12 text-lg">課程介紹</a></li>
+        <li><a href="#" class="flex items-center px-12 text-lg">
+          <span class="material-icons mr-1">
+            account_circle
+          </span>
+          登入
+        </a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="mt-[79px] md:mt-[90px]">
+    <%- contents %>
+  </div>
+
+  <footer class="footer bg-[#1A1A1A]">
+    <p class="text-center text-primary-light text-xs py-3.5 md:py-6 md:text-base">Coding Home © 2022 All Rights Reserved</p>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
