@@ -42,3 +42,7 @@
 .article-item:hover .article-border{
   display: block;
 }
+
+.priceList-item:hover .priceList-item-content{
+  color: #62DB54;
+}

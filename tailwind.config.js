@@ -30,6 +30,7 @@ module.exports = {
       colors: {
         'primary': {
           "light": '#909090',
+          "regular": '#C1C1C1',
           DEFAULT: '#2D2D2D',
           "medium": '#202020',
           "dark": '#1C1C1C'
@@ -47,6 +48,9 @@ module.exports = {
         '3xxl': ['32px', '48px'],
         '4xxl': ['42px', '63px'],
         '6xxl': ['64px', '96px']
+      },
+      listStyleType: {
+        square: 'square'
       }
     },
   },
