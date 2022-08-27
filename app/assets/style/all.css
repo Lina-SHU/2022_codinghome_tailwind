@@ -46,3 +46,7 @@
 .priceList-item:hover .priceList-item-content{
   color: #62DB54;
 }
+
+.timeline::after{
+  background: linear-gradient(to right, #62DB54 50%, #C1C1C1 50%)
+}
