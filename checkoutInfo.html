@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>信用卡付款資訊</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header fixed top-0 left-0 right-0 z-20 bg-primary after:content-[''] after:w-full after:h-[2px] after:left-0 after:bottom-0 after:absolute">
+    <div class="container flex items-center justify-between py-6">
+      <h1>
+        <a href="./index.html" class="bg-[url('../images/logo.svg')] bg-no-repeat bg-contain bg-center h-[24px] indent-[101%] whitespace-nowrap overflow-hidden md:h-[42px]">Coding Home</a>
+      </h1>
+      <button type="button" class="md:hidden">
+        <span class="material-icons text-secondary">
+          menu
+        </span>
+      </button>
+      <ul class="hidden md:flex">
+        <li><a href="#" class="px-12 text-lg">首頁</a></li>
+        <li><a href="#" class="px-12 text-lg">課程介紹</a></li>
+        <li><a href="#" class="flex items-center px-12 text-lg">
+          <span class="material-icons mr-1">
+            account_circle
+          </span>
+          登入
+        </a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="mt-[79px] md:mt-[90px]">
+    
+<main>
+  <!-- timeline -->
+  <div class="pt-6 md:pt-6 md:pb-4 md:bg-primary-dark">
+    <div class="container">
+      <div class="md:flex md:-mx-3">
+        <div class="md:w-8/12 md:mx-auto md:px-3">
+          <div
+            class="timeline w-10/12 mx-auto relative after:content-[''] after:absolute after:top-[9px] after:left-0 after:right-0 after:h-0.5 lg:w-11/12">
+          </div>
+          <ul class="flex justify-between items-center">
+            <li
+              class="text-secondary-green text-center relative before:absolute before:content-['1'] before:text-white before:text-xs before:w-5 before:h-5 before:rounded-full before:bg-secondary-green before:-translate-x-1/2">
+              <p class="pt-6">課程報名</p>
+            </li>
+            <li
+              class="text-secondary-green text-center relative before:absolute before:content-['2'] before:text-white before:text-xs before:w-5 before:h-5 before:rounded-full before:bg-secondary-green before:-translate-x-1/2">
+              <p class="pt-6">信用卡付款</p>
+            </li>
+            <li
+              class="text-primary-regular text-center relative before:absolute before:content-['3'] before:text-white before:text-xs before:w-5 before:h-5 before:rounded-full before:bg-primary-dark before:border before:border-primary-regular before:-translate-x-1/2">
+              <p class="pt-6">付款成功</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="pt-9 pb-10 lg:flex lg:-mx-3 lg:pt-12 lg:pb-20">
+      <div class="lg:w-1/3 lg:px-3 lg:mx-auto">
+        <section class="bg-primary-dark p-6 lg:py-12 lg:px-8">
+          <h2 class="text-2xl text-center font-bold mb-6 lg:mb-12">
+            信用卡付款
+          </h2>
+          <p class="text-lg font-bold text-center mb-4 lg:mb-6 lg:text-left">
+            請輸入信用卡資訊進行付款
+          </p>
+          <label class="text-primary-regular">
+            <span>信用卡帳號</span>
+            <input type="text"
+              class="bg-transparent rounded mb-4 focus:border-white focus:ring focus:ring-white focus:ring-opacity-5 mt-1.5 block w-full lg:mb-6"
+              placeholder="Xxxx-xxxx-xxxx-xxxx">
+          </label>
+          <label class="text-primary-regular">
+            <span>安全碼</span>
+            <input type="password"
+              class="bg-transparent rounded mb-4 focus:border-white focus:ring focus:ring-white focus:ring-opacity-5 mt-1.5 block w-full lg:mb-6"
+              placeholder="***">
+          </label>
+          <label class="text-primary-regular">
+            <span>有效日期</span>
+            <input type="text"
+              class="bg-transparent rounded mb-4 focus:border-white focus:ring focus:ring-white focus:ring-opacity-5 mt-1.5 block w-full lg:mb-6"
+              placeholder="(MM-YY)">
+          </label>
+          <div class="lg:flex lg:justify-between lg:items-center">
+            <p class="text-lg mb-6 lg:mb-0">NT$1600</p>
+            <div class="text-center">
+              <a href="./checkoutCompleted.html"
+                class="text-lg py-2 px-12 bg-gradient-to-r from-secondary-blue to-secondary-green rounded-lg">下一步</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+  </div>
+
+  <footer class="footer bg-[#1A1A1A]">
+    <p class="text-center text-primary-light text-xs py-3.5 md:py-6 md:text-base">Coding Home © 2022 All Rights Reserved</p>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
