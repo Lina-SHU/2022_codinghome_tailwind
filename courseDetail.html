@@ -29,7 +29,7 @@
       <ul class="hidden md:flex">
         <li><a href="#" class="px-12 text-lg">首頁</a></li>
         <li><a href="#" class="px-12 text-lg">課程介紹</a></li>
-        <li><a href="#" class="flex items-center px-12 text-lg">
+        <li><a href="#" class="login flex items-center px-12 text-lg">
           <span class="material-icons mr-1">
             account_circle
           </span>
@@ -267,6 +267,52 @@
   <footer class="footer bg-[#1A1A1A]">
     <p class="text-center text-primary-light text-xs py-3.5 md:py-6 md:text-base">Coding Home © 2022 All Rights Reserved</p>
   </footer>
+  <!-- 登入視窗 -->
+  <div class="loginModal relative z-30 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 bg-primary-dark bg-opacity-80 transition-opacity"></div>
+    <div class="fixed z-40 inset-0 overflow-y-auto">
+      <div class="flex items-center items-center justify-center min-h-full">
+        <div
+          class="relative overflow-hidden shadow-xl transform transition-all w-full mx-3 mx-auto pt-4 pb-10 px-6 border bg-primary md:w-2/3 lg:w-1/2 lg:pt-6 lg:pb-12">
+          <a href="#" class="LoginClose text-right lg:absolute lg:top-[30px] lg:right-6">
+            <span class="material-icons-outlined">
+              close
+            </span>
+          </a>
+          <h2 class="text-center font-bold text-2xl mb-6 lg:mb-8">登入</h2>
+          <div class="xl:px-[150px]">
+            <label for="email" class="text-primary-regular">
+              <span>信箱</span>
+              <input type="email" id="email"
+                class="bg-primary-dark rounded mb-4 border border-white focus:border-white focus:ring-1 focus:ring-white focus:ring-offest-0 mt-1.5 block w-full lg:mb-6"
+                placeholder="請輸入信箱">
+            </label>
+            <label for="password" class="text-primary-regular">
+              <span>密碼</span>
+              <input type="email" id="password"
+                class="bg-primary-dark rounded mb-4 border border-white focus:border-white focus:ring-1 focus:ring-white focus:ring-offest-0 mt-1.5 block w-full lg:mb-6"
+                placeholder="請輸入密碼">
+            </label>
+            <a href="#"
+              class="text-center text-lg py-2 bg-gradient-to-r from-secondary-blue to-secondary-green rounded-lg mb-4 lg:mb-12">登入</a>
+            <div class="relative mb-4">
+              <div class="absolute h-px right-0 left-0 top-1/2 bg-primary-regular z-[2]"></div>
+              <p class="relative text-primary-regular text-center z-[3]"><span
+                  class="inline-block bg-primary px-4">其他登入方式</span></p>
+            </div>
+            <a href="#" class="text-lg py-2 bg-transparent border rounded flex items-center justify-center mb-4">
+              <img src="./assets/images/icon_fb.svg" alt="Facebook" class="w-6 h-6 mr-8">
+              Facebook 登入
+            </a>
+            <a href="#" class="text-lg py-2 bg-transparent border rounded flex items-center justify-center">
+              <img src="./assets/images/icon_google.svg" alt="Google" class="w-6 h-6 mr-8">
+              Google 登入
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

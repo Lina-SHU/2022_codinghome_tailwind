@@ -22,4 +22,14 @@ slider.addEventListener('mousemove', function (e) {
   var walk = (x - startX) * 3;
   slider.scrollLeft = scrollLeft - walk;
 });
+$(document).ready(function () {
+  $('.login').click(function (e) {
+    e.preventDefault();
+    $('.loginModal').toggleClass('hidden');
+  });
+  $('.LoginClose').click(function (e) {
+    e.preventDefault();
+    $('.loginModal').toggleClass('hidden');
+  });
+});
 //# sourceMappingURL=all.js.map
