@@ -21,3 +21,14 @@ slider.addEventListener('mousemove', (e) => {
   const walk = (x - startX) * 3;
   slider.scrollLeft = scrollLeft - walk;
 });
+
+$(document).ready(() => {
+  $('.login').click(function (e) {
+    e.preventDefault();
+    $('.loginModal').toggleClass('hidden');
+  })
+  $('.LoginClose').click(function(e){
+    e.preventDefault();
+    $('.loginModal').toggleClass('hidden');
+  })
+}); 
