@@ -23,15 +23,15 @@
       <h1>
         <a href="./index.html" class="bg-[url('../images/logo.svg')] bg-no-repeat bg-contain bg-center h-[24px] indent-[101%] whitespace-nowrap overflow-hidden md:h-[42px]">Coding Home</a>
       </h1>
-      <button type="button" class="md:hidden">
-        <span class="material-icons text-secondary">
+      <button type="button" class="menuBtn md:hidden">
+        <span class="material-icons text-secondary-green">
           menu
         </span>
       </button>
-      <ul class="hidden md:flex">
-        <li><a href="#" class="px-12 text-lg">首頁</a></li>
-        <li><a href="#" class="px-12 text-lg">課程介紹</a></li>
-        <li><a href="#" class="login flex items-center px-12 text-lg">
+      <ul class="navList hidden w-full absolute left-0 top-full md:static md:w-auto md:flex">
+        <li><a href="./index.html" class="text-center text-lg pt-6 pb-3 bg-primary md:px-12 md:py-0">首頁</a></li>
+        <li><a href="./courses.html" class="text-center text-lg py-3 bg-primary md:px-12 md:py-0">課程介紹</a></li>
+        <li><a href="#" class="login flex items-center text-lg justify-center pt-3 pb-6 bg-primary md:px-12 md:py-0">
           <span class="material-icons mr-1">
             account_circle
           </span>
@@ -284,7 +284,7 @@
       <h2 class="font-bold text-center text-[22px] mb-4 lg:text-2xxl">文章分享</h2>
       <div class="w-[50px] h-[3px] bg-secondary-green mx-auto mb-10 lg:mb-12"></div>
       <ul class="lg:flex lg:flex-wrap lg:-mx-3">
-        <li class="article-item lg:px-3 lg:w-1/3 lg:relative">
+        <li class="article-item mb-6 lg:mb-0 lg:px-3 lg:w-1/3 lg:relative">
           <div class="article-border hidden absolute w-8 h-8 border-t border-l border-secondary-green top-0 left-0 rounded-tl-lg"></div>
           <div class="article-border hidden absolute w-8 h-8 border-t border-r border-secondary-green top-0 right-0 rounded-tr-lg"></div>
           <div class="article-border hidden absolute w-8 h-8 border-b border-r border-secondary-green bottom-0 right-0 rounded-br-lg"></div>
@@ -298,7 +298,7 @@
             </div>
           </div>
         </li>
-        <li class="article-item lg:px-3 lg:w-1/3 lg:relative">
+        <li class="article-item mb-6 lg:mb-0 lg:px-3 lg:w-1/3 lg:relative">
           <div class="article-border hidden absolute w-8 h-8 border-t border-l border-secondary-green top-0 left-0 rounded-tl-lg">
           </div>
           <div class="article-border hidden absolute w-8 h-8 border-t border-r border-secondary-green top-0 right-0 rounded-tr-lg"></div>
@@ -330,8 +330,70 @@
       </ul>
     </div>
   </section>
-  <!-- 加入我們成為導師 -->
+  <!-- 專屬你的學習課程 超過 3000 位學員得到了 程式超能力 -->
   <section class="bg-black py-10 lg:py-20">
+    <h2 class="font-bold text-center text-2xl mb-4">專屬你的學習課程<br>超過 3000 位學員得到了<br>程式超能力</h2>
+    <div class="w-[50px] h-[3px] bg-secondary-green mx-auto mb-6"></div>
+    <div class="container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="rounded-3xl overflow-hidden mb-[45px]">
+              <img src="./assets/images/share.jpg" alt="程式超能力">
+            </div>
+            <div class="relative bg-white p-6 text-[#494755] rounded-r-3xl rounded-tl-3xl">
+              <div class="absolute right-6 -top-[30px] w-20 h-20 rounded-full overflow-hidden">
+                <img src="./assets/images/student01.jpg" alt="學員">
+              </div>
+              <h3 class="text-lg font-bold mb-2">老師很有耐心</h3>
+              <p>老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="rounded-3xl overflow-hidden mb-[45px]">
+              <img src="./assets/images/share.jpg" alt="程式超能力">
+            </div>
+            <div class="relative bg-white p-6 text-[#494755] rounded-r-3xl rounded-tl-3xl">
+              <div class="absolute right-6 -top-[30px] w-20 h-20 rounded-full overflow-hidden">
+                <img src="./assets/images/student02.jpg" alt="學員">
+              </div>
+              <h3 class="text-lg font-bold mb-2">老師很有耐心</h3>
+              <p>老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="rounded-3xl overflow-hidden mb-[45px]">
+              <img src="./assets/images/share.jpg" alt="程式超能力">
+            </div>
+            <div class="relative bg-white p-6 text-[#494755] rounded-r-3xl rounded-tl-3xl">
+              <div class="absolute right-6 -top-[30px] w-20 h-20 rounded-full overflow-hidden">
+                <img src="./assets/images/student03.jpg" alt="學員">
+              </div>
+              <h3 class="text-lg font-bold mb-2">老師很有耐心</h3>
+              <p>老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="rounded-3xl overflow-hidden mb-[45px]">
+              <img src="./assets/images/share.jpg" alt="程式超能力">
+            </div>
+            <div class="relative bg-white p-6 text-[#494755] rounded-r-3xl rounded-tl-3xl">
+              <div class="absolute right-6 -top-[30px] w-20 h-20 rounded-full overflow-hidden">
+                <img src="./assets/images/student04.jpg" alt="學員">
+              </div>
+              <h3 class="text-lg font-bold mb-2">老師很有耐心</h3>
+              <p>老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </section>
+  <!-- 加入我們成為導師 -->
+  <div class="bg-black py-10 lg:py-20">
     <div class="container">
       <div class="rounded-3xl bg-primary-medium py-10 px-6 text-center space-y-6 lg:flex lg:p-12 lg:items-center lg:space-y-0 lg:text-left lg:w-[73%] lg:mx-auto">
         <span class="material-icons text-[103px] text-primary-light">
@@ -344,8 +406,17 @@
         <a href="#" class="border inline-block rounded-lg py-2 px-8 whitespace-nowrap lg:ml-auto lg:hover:text-black lg:hover:bg-white">立即預約</a>
       </div>
     </div>
-  </section>
+  </div>
 </main>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      }
+    });
+</script>
   </div>
 
   <footer class="footer bg-[#1A1A1A]">

@@ -615,6 +615,15 @@ a{
 .bottom-0{
   bottom: 0px;
 }
+.right-6{
+  right: 1.5rem;
+}
+.-top-\[30px\]{
+  top: -30px;
+}
+.top-full{
+  top: 100%;
+}
 .top-1\/2{
   top: 50%;
 }
@@ -711,6 +720,9 @@ a{
 .ml-auto{
   margin-left: auto;
 }
+.mb-\[45px\]{
+  margin-bottom: 45px;
+}
 .mr-1{
   margin-right: 0.25rem;
 }
@@ -761,6 +773,9 @@ a{
 .h-full{
   height: 100%;
 }
+.h-20{
+  height: 5rem;
+}
 .h-\[24px\]{
   height: 24px;
 }
@@ -799,6 +814,9 @@ a{
 }
 .w-8{
   width: 2rem;
+}
+.w-20{
+  width: 5rem;
 }
 .w-6{
   width: 1.5rem;
@@ -884,6 +902,10 @@ a{
 .rounded-xl{
   border-radius: 0.75rem;
 }
+.rounded-r-3xl{
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
 .rounded-tl-lg{
   border-top-left-radius: 0.5rem;
 }
@@ -895,6 +917,9 @@ a{
 }
 .rounded-bl-lg{
   border-bottom-left-radius: 0.5rem;
+}
+.rounded-tl-3xl{
+  border-top-left-radius: 1.5rem;
 }
 .border-\[3px\]{
   border-width: 3px;
@@ -1117,13 +1142,13 @@ a{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.py-3\.5{
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.py-3\.5{
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 .pt-6{
   padding-top: 1.5rem;
@@ -1148,6 +1173,12 @@ a{
 }
 .pb-4{
   padding-bottom: 1rem;
+}
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+.pt-3{
+  padding-top: 0.75rem;
 }
 .pt-4{
   padding-top: 1rem;
@@ -1228,6 +1259,10 @@ a{
 }
 .text-transparent{
   color: transparent;
+}
+.text-\[\#494755\]{
+  --tw-text-opacity: 1;
+  color: rgb(73 71 85 / var(--tw-text-opacity));
 }
 .text-primary-light{
   --tw-text-opacity: 1;
@@ -1536,6 +1571,9 @@ a{
 }
 
 @media (min-width: 720px){
+  .md\:static{
+    position: static;
+  }
   .md\:-mx-3{
     margin-left: -0.75rem;
     margin-right: -0.75rem;
@@ -1570,6 +1608,9 @@ a{
   .md\:w-1\/2{
     width: 50%;
   }
+  .md\:w-auto{
+    width: auto;
+  }
   .md\:w-2\/3{
     width: 66.666667%;
   }
@@ -1603,6 +1644,14 @@ a{
   .md\:py-\[52px\]{
     padding-top: 52px;
     padding-bottom: 52px;
+  }
+  .md\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .md\:py-6{
     padding-top: 1.5rem;
