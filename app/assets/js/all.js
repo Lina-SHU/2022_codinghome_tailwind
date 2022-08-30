@@ -30,7 +30,6 @@ $(document).ready(() => {
   $('.login').click(function (e) {
     e.preventDefault();
     $('.loginModal').toggleClass('hidden');
-    $('.navList').slideToggle().toggleClass('hidden');
   })
   $('.LoginClose').click(function(e){
     e.preventDefault();
