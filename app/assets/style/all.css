@@ -56,16 +56,9 @@
   width: auto;
 }
 
-.swiper-button-prev::after {
-  content: '\e5c4';
-  font-family: 'Material Icons';
-  font-size: 24px;
-}
-
+.swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '\e5c8';
   font-family: 'Material Icons';
-  font-size: 24px;
 }
 
 .swiper-pagination-bullet {
@@ -79,12 +72,5 @@
   width: 16px;
   border-radius: 100px;
   background: #62DB54;
-}
-
-.swiper-button-next,
-.swiper-button-prev{
-  width: 24px;
-  height: 24px;
-  color: #62DB54;
 }
 /* index swiper end */
