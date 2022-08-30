@@ -50,3 +50,41 @@
 .timeline::after{
   background: linear-gradient(to right, #62DB54 50%, #C1C1C1 50%)
 }
+
+/* index swiper */
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  width: auto;
+}
+
+.swiper-button-prev::after {
+  content: '\e5c4';
+  font-family: 'Material Icons';
+  font-size: 24px;
+}
+
+.swiper-button-next::after {
+  content: '\e5c8';
+  font-family: 'Material Icons';
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background: #62DB54;
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px;
+  border-radius: 100px;
+  background: #62DB54;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  width: 24px;
+  height: 24px;
+  color: #62DB54;
+}
+/* index swiper end */
