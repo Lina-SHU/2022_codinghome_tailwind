@@ -18,10 +18,6 @@
   background: linear-gradient(to right, #62DB54 50%, #09ACF5 50%)
 }
 
-.featureList-item:hover span{
-  color: transparent;
-}
-
 .skillList{
   white-space: nowrap;
   overflow-x: scroll;
@@ -29,22 +25,6 @@
 }
 .skillList::-webkit-scrollbar {
   display: none;
-}
-
-.specialList-item:hover span{
-  color: #62DB54;
-}
-
-.specialList-item:hover .breakLine{
-  background-color: #62DB54;
-}
-
-.article-item:hover .article-border{
-  display: block;
-}
-
-.priceList-item:hover .priceList-item-content{
-  color: #62DB54;
 }
 
 .timeline::after{
@@ -74,3 +54,20 @@
   background: #62DB54;
 }
 /* index swiper end */
+
+.checkoutCompleted{
+  height: calc(100vh - 125px);
+}
+
+.checkoutInfo{
+  height: calc(100vh - 125px);
+}
+
+@media (min-width: 768px) {
+  .checkoutCompleted{
+    height: calc(100vh - 162px);
+  }
+  .checkoutInfo {
+    height: auto;
+  }
+}

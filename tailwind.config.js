@@ -51,6 +51,12 @@ module.exports = {
       },
       listStyleType: {
         square: 'square'
+      },
+      spacing: {
+        '5px': '5px',
+        '30px': '30px',
+        '50px': '50px',
+        '25': '100px'
       }
     },
   },
